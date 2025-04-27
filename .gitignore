@@ -1,0 +1,63 @@
+app/public/assets
+app/public/build
+app/public/css
+app/public/js
+app/public/media
+!app/public/media/image/.gitkeep
+
+app/etc/build/*
+!app/etc/build/.gitignore
+
+app/drivers/
+
+app/docker-compose.override.yaml
+app/docker-compose.override.yml
+app/compose.override.yaml
+app/compose.override.yml
+app/docker/mysql/data/
+
+###> symfony/framework-bundle ###
+app/composer.lock
+app/.env.*.local
+app/.env.local
+app/.env.local.php
+app/public/bundles
+app/var/
+app/vendor/
+###< symfony/framework-bundle ###
+
+###> friendsofphp/php-cs-fixer ###
+app/.php_cs
+app/.php_cs.cache
+###< friendsofphp/php-cs-fixer ###
+
+###> phpunit/phpunit ###
+app/.phpunit.result.cache
+app/phpunit.xml
+###< phpunit/phpunit ###
+
+###> lexik/jwt-authentication-bundle ###
+app/config/jwt/*.pem
+!app/config/jwt/*-test.pem
+###< lexik/jwt-authentication-bundle ###
+
+###> symfony/webpack-encore-bundle ###
+app/node_modules/
+app/public/build/
+app/npm-debug.log
+app/yarn-error.log
+app/yarn.lock
+app/package-lock.json
+###< symfony/webpack-encore-bundle ###
+
+###> phpstan/phpstan ###
+app/phpstan.neon
+###< phpstan/phpstan ###
+
+###> friends-of-behat/symfony-extension ###
+app/behat.yml
+###< friends-of-behat/symfony-extension ###
+
+###> liip/imagine-bundle ###
+app/public/media/cache/
+###< liip/imagine-bundle ###
