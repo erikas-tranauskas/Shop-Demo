@@ -1,0 +1,14 @@
+{
+    "name": "erikas/my-theme",
+    "authors": [
+        {
+            "name": "Erikas Tranauskas",
+            "email": "e50erikas@gmail.com"
+        }
+    ],
+    "extra": {
+        "my-theme": {
+            "title": "My Theme"
+        }
+    }
+}
